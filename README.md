@@ -7,6 +7,12 @@ Laravel Smart Router
 composer require jeylabs/smart-route
 ```
 
+Add below line into config/app.php inside providers array
+
+```
+Jeylabs\SmartRoute\SmartRouteServiceProvider::class,
+```
+
 ### Publish configuration file
 
 ```
