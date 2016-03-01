@@ -9,7 +9,7 @@ composer require jeylabs/smart-route
 
 Add below line into config/app.php inside providers array
 
-```
+```php
 Jeylabs\SmartRoute\SmartRouteServiceProvider::class,
 ```
 
